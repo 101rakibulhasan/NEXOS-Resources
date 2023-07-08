@@ -1,0 +1,5 @@
+#define close_btn_width 10
+#define close_btn_height 10
+static unsigned short close_btn_bits[] = {
+   0x0307, 0x038f, 0x03df, 0x03fe, 0x01fc, 0x00f8, 0x01fc, 0x03fe, 0x03df,
+   0x038f };

@@ -1,0 +1,5 @@
+#update plymouth
+update-initramfs -u
+
+#update grub conf
+update-grub

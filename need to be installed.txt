@@ -1,0 +1,19 @@
+nitrogen
+xorg
+plymouth
+picom
+
+libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-dpms0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl-dev libegl-dev libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+
+build-essential openssl libssl-dev libssl1.0 libgl1-mesa-dev libqt5x11extras5 qtbase5-dev qt6-base-dev qtwebengine5-dev qt6-webengine-dev qt6-multimedia-edv qt6-*
+
+qtchooser -install qt6 $(which qmake6)
+sudo mv ~/.config/qtchooser/qt6.conf /usr/share/qtchooser/qt6.conf
+sudo mkdir -p /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser
+sudo ln -n /usr/share/qtchooser/qt6.conf /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser/default.conf
+
+libqt6*
+
+bison clang-* python3 nodejs npm clang libclang-* libnss libnss-dev
+
+tint2

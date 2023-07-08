@@ -1,0 +1,2 @@
+sda3 - 18G (LFS Partition)
+sda4 - 1G (swap)

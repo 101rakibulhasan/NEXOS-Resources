@@ -1,0 +1,4 @@
+#define maximize_btn_width 5
+#define maximize_btn_height 5
+static unsigned short maximize_btn_bits[] = {
+   0x0000, 0x0000, 0x0000, 0x0000, 0x0000 };
